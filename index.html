@@ -3,21 +3,22 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CashSMS - Gagne 50-75 CHF pour envoyer des SMS</title>
-<meta name="title" content="Gagne 50-75 CHF pour envoyer des SMS!">
+  <link rel="icon" href="logo.png">
+	<title>CashSMS - Gagner 50-75 CHF pour envoyer des SMS</title>
+<meta name="title" content="Gagner 50-75 CHF pour envoyer des SMS!">
 <meta name="description" content="Le seul site qui vous paye plus de 50 CHF uniquement pour envoyer des SMS.">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://cashsms.github.io">
-<meta property="og:title" content="Gagne 50-75 CHF pour envoyer des SMS!">
+<meta property="og:title" content="Gagner 50-75 CHF pour envoyer des SMS!">
 <meta property="og:description" content="Le seul site qui vous paye plus de 50 CHF uniquement pour envoyer des SMS.">
 <meta property="og:image" content="https://i.imgur.com/5Jp22hx.png">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://cashsms.github.io">
-<meta property="twitter:title" content="Gagne 50-75 CHF pour envoyer des SMS!">
+<meta property="twitter:title" content="Gagner 50-75 CHF pour envoyer des SMS!">
 <meta property="twitter:description" content="Le seul site qui vous paye plus de 50 CHF uniquement pour envoyer des SMS.">
 <meta property="twitter:image" content="https://i.imgur.com/5Jp22hx.png">
 
@@ -94,29 +95,31 @@
     <button class="close-button"><svg><use href="#close"></use></svg></button>
   </header>	
 <div class="targets">
-    <a class="button" href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fcss-tricks.com%2F
-" target="blank">
+    <a class="button" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fcutt.ly%2FCashSMS" target="blank">
       <svg>
-        <use href="#facebook"></use>
+        <use href="#facebook" ></use>
       </svg>
       <span>Facebook</span>
     </a>
     
-    <a class="button">
+    <a class="button" href="https://twitter.com/intent/tweet
+?url=https%3A%2F%2Fcutt.ly%2FCashSMS&text=Comment+gagner+plus+de+50CHF+en+envoyant+des+SMS!&hashtags=riche,argent,oseil,travail,emploi,recrutement,job,jobs,offre,opportunité,workfromhome,swiss,suisse,schweiz,switzerland" target="blank">
       <svg>
         <use href="#twitter"></use>
       </svg>
       <span>Twitter</span>
     </a>
     
-    <a class="button">
+    <a class="button" href="https://www.linkedin.com/shareArticle
+?url=https%3A%2F%2Fcutt.ly%2FCashSMS&title=Gagner+50-75+CHF+pour+envoyer+des+SMS
+&summary=Le+seul+site+qui+vous+paye+plus+de+50+CHF+uniquement+pour+envoyer+des+SMS." target="blank">
       <svg>
         <use href="#linkedin"></use>
       </svg>
       <span>LinkedIn</span>
     </a>
     
-    <a class="button">
+    <a class="button" href="mailto:?subject=Gagne plus de 50CHF en envoyant des SMS&amp;body=Voici comment je gagne plus de 200CHF par jours en envoyant des SMS, ça vaut vraiment le coup! voici le lien: https://cutt.ly/CashSMS." target="blank">
       <svg>
         <use href="#email"></use>
       </svg>
@@ -124,14 +127,19 @@
     </a>
   </div>
   <div class="link">
-    <div class="pen-url">https://codepen.io/ayoisaiah/pen/YbNazJ</div>
-    <button class="copy-link">Copy Link</button>
+    <div class="pen-url">https://cutt.ly/CashSMS</div>
+    <button class="copy-link" onclick="CopyLink()">Copy Link</button>
   </div>
 </div>
 	</div>
 
 
 <script type="text/javascript">
+
+  function CopyLink() {
+        navigator.clipboard.writeText('https://cutt.ly/CashSMS');
+      }
+
 	window.onload = function() { document.getElementsByClassName('share-button')[0].classList.add('nudge'); }
 
 	const shareButton = document.querySelector('.share-button');
@@ -141,8 +149,8 @@ const closeButton = document.querySelector('.close-button');
 shareButton.addEventListener('click', event => {
   if (navigator.share) { 
    navigator.share({
-      title: 'WebShare API Demo',
-      url: 'https://codepen.io/ayoisaiah/pen/YbNazJ'
+      title: 'Gagner 50-75 CHF pour envoyer des SMS!',
+      url: 'https://cutt.ly/CashSMS'
     }).then(() => {
       console.log('Thanks for sharing!');
     })
