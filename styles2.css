@@ -5,12 +5,11 @@
 }
 body
 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	background-color: #161725!important;
 	height: 100vh;
 	width: 100%;
 }
-
 .main
 {
 	width: 90vw;
@@ -23,7 +22,7 @@ body
 	border-radius: 2.5vw;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #ffffff !important;
+	background-color: #ffffff;
 	  -webkit-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.75);
 box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.75);
@@ -37,14 +36,14 @@ box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.75);
 	border-top-right-radius: 2.5vw;
 	flex-direction: row;
 	justify-content: center;
-	/*background-color: #00e670 !important;*/
 	align-self: center;
 	color: #161725;
 	font-size: 1.55vw;
-	font-weight: 400;
+	font-weight: 300;
 	text-align: center;
 	background-image:  url("background2.png");
 	background-size: cover;
+	 background-position: center;
 	background-repeat: no-repeat;
 }
 .box
@@ -73,8 +72,8 @@ box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.75);
   max-height: 80%;
 }
 .circle {
-  width: 40vw;
-  height: 40vw;
+  width: 35vw;
+  height: 35vw;
   border-radius: 50%;
   display: flex;
 flex-direction: column;
@@ -93,13 +92,9 @@ flex-direction: column;
 }
 .titlebox
 {
-	width: 80%;
+	width: 100%;
 	height: 10%;
 	display: flex;
-	border-top-left-radius: 2.5vw;
-	border-top-right-radius: 2.5vw;
-	border-bottom-left-radius: 2.5vw;
-	border-bottom-right-radius: 2.5vw;
 	flex-direction: column;
 	justify-content: center;
 	align-self: center;
@@ -111,14 +106,14 @@ flex-direction: column;
 .title
 {
 	color: #242424;
-	font-weight: bold;
-	font-size: 6.55vw;
+	font-weight: 600;
+	font-size: 5.55vw;
 }
 .subtitle
 {
 	color: #242424;
-	font-size: 4vw;
-	font-weight: normal;
+	font-size: 3.5vw;
+	font-weight: 300;
 }
 .middle
 {
@@ -126,28 +121,25 @@ flex-direction: column;
 	height: 45%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	background-color: #fff !important;
+	justify-content: space-evenly;
 	align-self: center;
 	color: #161725;
 	font-size: 1.55vw;
-	font-weight: 400;
+	font-weight: 300;
 	text-align: center;
 }
 .SMS1box
 {
 	width: 85%;
-	height: 25%;
+	height: 15%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	background-color: #fac8c8 !important;
+	background-color: #fac8c8;
 	align-self: center;
 	color: #161725;
 	font-size: 1.55vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
+	font-weight: 300;
 	text-align: center;
 	border-bottom-left-radius: 2.5vw;
 	border-bottom-right-radius: 2.5vw;
@@ -156,171 +148,391 @@ flex-direction: column;
 	  -webkit-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
 -moz-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
 box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
-  -webkit-tap-highlight-color: transparent;
+}
+.SMS1picctn
+{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	border:0;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #ff1616;
+	align-self: center;
+	color: #161725;
+	font-size: 1.55vw;
+	font-weight: 300;
+	text-align: center;
+	border-bottom-left-radius: 2.5vw;
+	border-top-left-radius: 2.5vw;
+}
+.SMS0picbox
+{
+width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #FFA200;
+	align-self: center;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	outline: none;
+	display: inline-block;
+	text-align: center;
+	border-bottom-left-radius: 2.5vw;
+	border-top-left-radius: 2.5vw;
+	-webkit-tap-highlight-color: transparent;
+		background-image:  url("signup3.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
-}
-.SMS2box
+.SMS0btnctn
 {
-	width: 85%;
-	height: 25%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	background-color: #c8fac8 !important;
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
-	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	border-bottom-right-radius: 2.5vw;
-	border-top-left-radius: 2.5vw;
-	border-top-right-radius: 2.5vw;
-	  -webkit-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
--moz-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
-  -webkit-tap-highlight-color: transparent;
-
-}
-.SMS1pic
-{
-	width: 25%;
-	height: 100%;
-	display: flex;
-	border:0;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #ff1616 !important;
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
-	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	border-top-left-radius: 2.5vw;
-	background-image:  url("2.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.SMS2pic
-{
-	width: 25%;
-	height: 100%;
-	display: flex;
-	border:0;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #ff1616 !important;
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
-	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	border-top-left-radius: 2.5vw;
-	background-image:  url("4.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.SMS3pic
-{
-	width: 25%;
-	height: 100%;
-	display: flex;
-	border:0;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #ff1616 !important;
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
-	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	border-top-left-radius: 2.5vw;
-	background-image:  url("5.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.SMS4pic
-{
-	width: 25%;
-	height: 100%;
-	display: flex;
-	border:0;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #16ff26 !important;
-	align-self: center;
-	color: #16ff26;
-	font-size: 1.55vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
-	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	border-top-left-radius: 2.5vw;
-	background-image:  url("6.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.SMS1text
-{
-	width: 75%;
+	width: 80%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: transparent;
 	align-self: center;
 	color: #ff1616;
 	font-size: 3.55vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
+	font-weight: 300;
 	border:0;
 	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	border-top-left-radius: 2.5vw;
+	border-bottom-right-radius: 2.5vw;
+	border-top-right-radius: 2.5vw;
 
 }
-.SMSretrait
+.SMS0btn
 {
-	width: 75%;
+	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: transparent;
+	background-color: #fcdda7;
 	align-self: center;
-	color: #16ff26;
+	align-items: center;
+	color: #FAFF00;
 	font-size: 3.55vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
+	font-weight: 300;
 	border:0;
+	outline: none;
+	text-align: center;
+	border-bottom-right-radius: 2.5vw;
+	border-top-right-radius: 2.5vw;
+	-webkit-tap-highlight-color: transparent;
+}
+.SMS1picbox
+{
+width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #ff1616;
+	align-self: center;
+	color: #ff1616;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	outline: none;
+	display: inline-block;
 	text-align: center;
 	border-bottom-left-radius: 2.5vw;
 	border-top-left-radius: 2.5vw;
-  -webkit-tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: transparent;
+		background-image:  url("2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
+.SMS1btnctn
+{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	color: #ff1616;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	text-align: center;
+	border-bottom-right-radius: 2.5vw;
+	border-top-right-radius: 2.5vw;
+
+}
+.SMS1btn
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #fac8c8;
+	align-self: center;
+	align-items: center;
+	color: #ff1616;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	outline: none;
+	text-align: center;
+	border-bottom-right-radius: 2.5vw;
+	border-top-right-radius: 2.5vw;
+	-webkit-tap-highlight-color: transparent;
+}
+.SMS2picbox
+{
+width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #ff1616;
+	align-self: center;
+	color: #ff1616;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	outline: none;
+	display: inline-block;
+	text-align: center;
+	border-bottom-left-radius: 2.5vw;
+	border-top-left-radius: 2.5vw;
+	-webkit-tap-highlight-color: transparent;
+		background-image:  url("4.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.SMS2btnctn
+{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	color: #ff1616;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	text-align: center;
+	border-bottom-right-radius: 2.5vw;
+	border-top-right-radius: 2.5vw;
+
+}
+.SMS2btn
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #fac8c8;
+	align-self: center;
+	align-items: center;
+	color: #ff1616;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	outline: none;
+	text-align: center;
+	border-bottom-right-radius: 2.5vw;
+	border-top-right-radius: 2.5vw;
+	-webkit-tap-highlight-color: transparent;
+}
+.SMS3picbox
+{
+width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #ff1616;
+	align-self: center;
+	color: #ff1616;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	outline: none;
+	display: inline-block;
+	text-align: center;
+	border-bottom-left-radius: 2.5vw;
+	border-top-left-radius: 2.5vw;
+	-webkit-tap-highlight-color: transparent;
+		background-image:  url("5.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.SMS3btnctn
+{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	color: #ff1616;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	text-align: center;
+	border-bottom-right-radius: 2.5vw;
+	border-top-right-radius: 2.5vw;
+
+}
+.SMS3btn
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #fac8c8;
+	align-self: center;
+	align-items: center;
+	color: #ff1616;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	outline: none;
+	text-align: center;
+	border-bottom-right-radius: 2.5vw;
+	border-top-right-radius: 2.5vw;
+	-webkit-tap-highlight-color: transparent;
+}
+.SMS4picbox
+{
+width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #16ff26;
+	align-self: center;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0px;
+	outline: none;
+	display: inline-block;
+	text-align: center;
+	border-bottom-left-radius: 2.5vw;
+	border-top-left-radius: 2.5vw;
+	-webkit-tap-highlight-color: transparent;
+		background-image:  url("6.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.SMS4btnctn
+{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	color: #16ff26;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	text-align: center;
+	border-bottom-right-radius: 2.5vw;
+	border-top-right-radius: 2.5vw;
+
+}
+.SMS4btn
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #c8fac8;
+	align-self: center;
+	align-items: center;
+	color: #ff1616;
+	font-size: 3.55vw;
+	font-weight: 300;
+	border:0;
+	outline: none;
+	text-align: center;
+	border-bottom-right-radius: 2.5vw;
+	border-top-right-radius: 2.5vw;
+	-webkit-tap-highlight-color: transparent;
+}
+.SMS0btn, .SMS1btn, .SMS2btn, .SMS3btn, .SMS4btn, .SMS0picbox, .SMS1picbox, .SMS2picbox, .SMS3picbox, .SMS4picbox:hover
+{
+	cursor: pointer;
 }
 .smstitle
 {
-	margin: auto;
+	max-width: 90%;
+	max-height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	align-items: center;
+	color: #ff1616;
+	margin: 0.25vw;
+	font-size: 3vw;
+	font-weight: 300;
+	border:0;
+	outline: none;
+	text-align: left;
+	white-space: nowrap;
 }
+.smstitle2
+{
+	max-width: 90%;
+	max-height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	align-items: center;
+	color: #ffa200;
+	margin: 0.25vw;
+	font-size: 3vw;
+	font-weight: 300;
+	border:0;
+	outline: none;
+	text-align: left;
+	white-space: nowrap;
+}
+.smstitle3
+{
+	max-width: 90%;
+	max-height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	align-items: center;
+	color: #16ff26;
+	margin: 0.25vw;
+	font-size: 3vw;
+	font-weight: 300;
+	border:0;
+	outline: none;
+	text-align: left;
+	white-space: nowrap;
+}
+
 .bottom
 {
 	width: 100%;
@@ -328,6 +540,7 @@ box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	background-color: #131313 !important;
 	align-self: center;
 	color: #161725;
 	font-size: 1.55vw;
@@ -338,7 +551,7 @@ box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
 }
 .bottompic
 {
-	width: 33.2%;
+	width: 25%;
 	height: 100%;
 	display: flex;
 	flex-direction: row;
@@ -352,13 +565,13 @@ box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
 	text-align: center;
 	border-bottom-left-radius: 2.5vw;
 	background-image:  url("link3.svg");
-	background-size: 100%;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bottomtxt
 {
-	width: 67%;
+	width: 75%;
 	height: 100%;
 	display: flex;
 	border:none;
@@ -409,7 +622,7 @@ svg {
   margin-right: 7px;
 }
 
-button, .button {
+.button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -430,8 +643,8 @@ button, .button {
   cursor: pointer;
 }
 
-button:hover, .button:hover {
-  border-color: #cdd;
+.button:hover {
+ 
   
 }
 .nudge{
@@ -447,6 +660,17 @@ border-bottom-right-radius: 2.5vw;
 border-top-right-radius: 2.5vw;
 border-top-left-radius: 2.5vw;
 border-bottom-left-radius: 2.5vw;
+white-space: nowrap;
+border: 0;
+ color: #ff1616;
+}
+.copy-link {
+
+	background-color: white;
+	 -webkit-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.75);
+box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.75);
+padding: 13px;
 }
 
 .share-button, .share-dialog {
@@ -477,7 +701,10 @@ border-bottom-left-radius: 2.5vw;
   display: block;
   z-index: 2;
 }
-
+.dialog-title
+{
+	color: #ff1616;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -496,10 +723,15 @@ header {
   background-color: transparent;
   border: none;
   padding: 0;
+  color: #ff1616;
 }
 
 .close-button svg {
   margin-right: 0;
+}
+.close-button, .copy-link:hover
+{
+	cursor: pointer;
 }
 
 .link {
@@ -536,9 +768,21 @@ header {
 	display: none;
 }
 @media only screen and (orientation: landscape) {
+.top
+{
+	background-image:  url("background.png");
+}
+.titlebox
+{
+	height: 15%;
+}
+.middle
+{
+	height: 40%;
+}
 .circle {
-  width: 7vw;
-  height: 7vw;
+  width: 10vw;
+  height: 10vw;
   border-radius: 50%;
   display: flex;
 flex-direction: column;
@@ -557,81 +801,19 @@ flex-direction: column;
 }
 .SMS1box
 {
-	width: 85%;
-	height: 12%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	background-color: #fac8c8 !important;
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
 	display: none;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
-	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	border-bottom-right-radius: 2.5vw;
-	border-top-left-radius: 2.5vw;
-	border-top-right-radius: 2.5vw;
-	  -webkit-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
--moz-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
-}
-.SMS2box
-{
-	width: 85%;
-	height: 12%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	background-color: #c8fac8 !important;
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
-	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	border-bottom-right-radius: 2.5vw;
-	border-top-left-radius: 2.5vw;
-	display: none;
-	border-top-right-radius: 2.5vw;
-	  -webkit-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
--moz-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
-}
-.titlebox
-{
-	width: 80%;
-	height: 17%;
-	display: flex;
-	border-top-left-radius: 2.5vw;
-	border-top-right-radius: 2.5vw;
-	border-bottom-left-radius: 2.5vw;
-	border-bottom-right-radius: 2.5vw;
-	flex-direction: column;
-	justify-content: center;
-	align-self: center;
-	padding-top: 5%;
-	color: #161725;
-	font-size: 1.55vw;
-	font-weight: 400;
-	text-align: center;
 }
 .title
 {
 	color: #242424;
-	font-weight: bold;
-	font-size: 3.55vw;
+	font-weight: 600;
+	font-size: 2vw;
 }
 .subtitle
 {
 	color: #242424;
-	font-size: 2vw;
-	font-weight: normal;
+	font-size: 1vw;
+	font-weight: 300;
 }
 .secretbox
 {
@@ -691,25 +873,6 @@ box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
   display: block;
   padding-bottom: 100%;
 }
-.bottompic
-{
-	width: 33%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	background-color: #ff1616 !important;
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
-	font-weight: 400;
-	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	background-image:  url("link3.svg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-}
 .bottomtxt1
 {
 	width: 100%;
@@ -724,9 +887,7 @@ box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
 	text-align: center;
 }
 }
-
 @media only screen and (max-width: 1500px) and (min-width: 700px) and (orientation: portrait) {
-
 .circle {
   width: 30vw;
   height: 30vw;
@@ -745,120 +906,6 @@ flex-direction: column;
 		background-image:  url("logo.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-.top
-{
-	width: 100%;
-	height: 30%;
-	display: flex;
-	border-top-left-radius: 2.5vw;
-	border-top-right-radius: 2.5vw;
-	flex-direction: row;
-	justify-content: center;
-	/*background-color: #00e670 !important;*/
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
-	font-weight: 400;
-	text-align: center;
-	background-image:  url("background2.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-.middle
-{
-	width: 100%;
-	height: 45%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #fff !important;
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
-	font-weight: 400;
-	text-align: center;
-}
-.bottom
-{
-	width: 100%;
-	height: 15%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
-	font-weight: 400;
-	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	border-bottom-right-radius: 2.5vw;
-}
-.SMS1box
-{
-	width: 85%;
-	height: 17%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	background-color: #fac8c8 !important;
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
-	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	border-bottom-right-radius: 2.5vw;
-	border-top-left-radius: 2.5vw;
-	border-top-right-radius: 2.5vw;
-	  -webkit-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
--moz-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
-}
-.SMS2box
-{
-	width: 85%;
-	height: 17%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	background-color: #c8fac8 !important;
-	align-self: center;
-	color: #161725;
-	font-size: 1.55vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-weight: 400;
-	text-align: center;
-	border-bottom-left-radius: 2.5vw;
-	border-bottom-right-radius: 2.5vw;
-	border-top-left-radius: 2.5vw;
-	border-top-right-radius: 2.5vw;
-	  -webkit-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
--moz-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
-box-shadow: 2px 15px 30px -6px rgba(0,0,0,0.25);
-}
-button, .button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 5%;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  color: #ff1616;
-  text-align: center;
-  font-size: 3vw;
-  font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: 2px;
-  text-transform: capitalize;
-  text-decoration: none;
-  white-space: nowrap;
-  border-radius: 4px;
-  border: 0px solid #ddd;
-  cursor: pointer;
 }
 
 }
